@@ -94,33 +94,11 @@
      style="background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px);">
   <div class="container d-flex align-items-center justify-content-between">
     
-    <!-- Left side: Countdown + Brand -->
-    <div class="d-flex align-items-center">
-      <!-- Countdown Timer -->
-      <div id="countdown" style="
-        margin-right: 2rem;
-        padding: 8px 16px;
-        border-radius: 30px;
-        background: linear-gradient(135deg, #f3e8d3, #d4a373);
-        box-shadow: 0 4px 12px rgba(212, 163, 115, 0.5);
-        font-family: 'Playfair Display', serif;
-        font-weight: 700;
-        color: #3c2f2f;
-        font-size: 0.9rem;
-        min-width: 220px;
-        text-align: center;
-        user-select: none;
-        white-space: nowrap;
-      ">
-        Launching In: <span id="time">Loading...</span>
-      </div>
-
-      <!-- Brand -->
-      <a class="navbar-brand fw-bold" href="#" 
-         style="font-family: 'Playfair Display', serif; font-size: 1.75rem; letter-spacing: 1px; color: #d4a373;">
-        Little
-      </a>
-    </div>
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold" href="#" 
+       style="font-family: 'Playfair Display', serif; font-size: 1.75rem; letter-spacing: 1px; color: #d4a373;">
+      Little
+    </a>
 
     <!-- Nav links -->
     <div class="collapse navbar-collapse" id="navMenu" style="flex-grow: 1;">
@@ -144,6 +122,7 @@
     </button>
   </div>
 </nav>
+
 
 
 <!-- Hero Section -->
@@ -206,7 +185,25 @@
   </div>
 </section>
 
-
+<!-- Countdown Timer Section -->
+<section class="py-4 d-flex justify-content-center" style="background-color: #fff8f4;">
+  <div id="countdown" style="
+    padding: 8px 16px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #f3e8d3, #d4a373);
+    box-shadow: 0 4px 12px rgba(212, 163, 115, 0.5);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #3c2f2f;
+    font-size: 0.9rem;
+    min-width: 220px;
+    text-align: center;
+    user-select: none;
+    white-space: nowrap;
+  ">
+    Launching In: <span id="time">Loading...</span>
+  </div>
+</section>
 
 <!-- About Section -->
 <section id="about" class="py-5" style="background: linear-gradient(135deg, #fffaf7, #fff8f4);">
